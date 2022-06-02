@@ -1,15 +1,11 @@
 package com.udacity.DogMicroservices.entity;
 
-//import org.springframework.data.annotation.Id;
-//
-//import javax.persistence.Entity;
-//import javax.persistence.GeneratedValue;
-//import javax.persistence.GenerationType;
+import javax.persistence.*;
 
-//@Entity
+@Entity
 public class Dog {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String name;
